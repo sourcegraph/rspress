@@ -3,7 +3,7 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,
-    "declaration": false,
+    "outDir": "./dist",
     "module": "ESNext",
     "target": "ESNext",
     "jsx": "react-jsx",
@@ -16,6 +16,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["src", "vitest.config.ts", "index.d.ts", "modern.config.ts"],
+  "include": ["src", "vitest.config.ts", "index.d.ts"],
   "exclude": ["node_modules", "dist"]
 }

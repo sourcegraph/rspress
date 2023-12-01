@@ -3,9 +3,9 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,
-    "declaration": false,
     "jsx": "preserve",
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "outDir": "dist"
   },
-  "include": ["src", "static", "modern.config.ts"]
+  "include": ["src", "static"]
 }

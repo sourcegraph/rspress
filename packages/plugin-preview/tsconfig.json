@@ -3,16 +3,15 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,
-    "declaration": false,
     "module": "ESNext",
     "target": "ESNext",
     "jsx": "react-jsx",
     "baseUrl": "src",
     "rootDir": ".",
+    "outDir": "dist",
     "lib": ["ESNext", "DOM"],
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "noEmit": true,
     "paths": {
       "@/*": ["./*"]
     }
@@ -22,8 +21,7 @@
     "vitest.config.ts",
     "index.d.ts",
     "mdx-meta-loader.cjs",
-    "static/",
-    "modern.config.ts"
+    "static/"
   ],
   "exclude": ["runtime.d.ts", "theme.d.ts", "node_modules", "dist"]
 }

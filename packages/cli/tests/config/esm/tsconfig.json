@@ -2,11 +2,11 @@
   "compilerOptions": {
     "declaration": true,
     "emitDeclarationOnly": true,
+    "outDir": "dist",
     "baseUrl": ".",
     "rootDir": ".",
     "target": "ESNext",
     "module": "ESNext",
-    "noEmit": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "moduleResolution": "nodenext",
