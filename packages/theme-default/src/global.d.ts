@@ -21,6 +21,11 @@ declare module 'virtual-routes' {
   export const routes: Route[];
 }
 
+declare module 'virtual-search-index-hash' {
+  const hash: string;
+  export default hash;
+}
+
 declare module 'virtual-search-hooks' {
   export const onSearch: (query: string) => void | Promise<void>;
 }

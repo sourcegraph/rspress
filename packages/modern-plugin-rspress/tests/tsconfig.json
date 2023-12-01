@@ -2,6 +2,8 @@
   "extends": "@modern-js/tsconfig/base",
   "compilerOptions": {
     "declaration": true,
+    "emitDeclarationOnly": true,
+    "declaration": true,
     "jsx": "preserve",
     "baseUrl": "./",
     "outDir": "./out",

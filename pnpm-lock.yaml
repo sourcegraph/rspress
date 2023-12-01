@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -766,6 +766,9 @@ importers:
       remark-rehype:
         specifier: ^10.1.0
         version: 10.1.0
+      typescript:
+        specifier: ^5
+        version: 5.0.4
       unified:
         specifier: ^10.1.2
         version: 10.1.2

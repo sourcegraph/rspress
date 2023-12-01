@@ -1,11 +1,14 @@
 {
   "extends": "@modern-js/tsconfig/base",
   "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
     "rootDir": "src",
     "baseUrl": ".",
     "skipLibCheck": true,
     "jsx": "react-jsx",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "outDir": "dist"
   },
   "include": ["./src/**/*"]
 }

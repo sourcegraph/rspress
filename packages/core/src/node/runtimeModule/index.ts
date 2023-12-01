@@ -73,7 +73,7 @@ export function rsbuildPluginDocVM(
         for (const factory of runtimeModuleFactory) {
           const moduleResult = await factory({
             ...factoryContext,
-            alias,
+            alias: alias as any,
           });
           Object.assign(runtimeModule, moduleResult);
         }
@@ -93,7 +93,7 @@ export function rsbuildPluginDocVM(
             new RspackVirtualModulePlugin(
               runtimeModule,
               factoryContext.runtimeTempDir,
-            ),
+            ) as any,
           );
       });
     },

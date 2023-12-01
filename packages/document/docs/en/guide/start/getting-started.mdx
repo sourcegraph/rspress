@@ -56,7 +56,9 @@ And then create `tsconfig.json`, add the following config:
 
 ```ts
 {
-  "compilerOptions": {
+    "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
     "esModuleInterop": true,
     "jsx": "react-jsx"
   }

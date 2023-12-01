@@ -9,7 +9,6 @@ import {
 } from '@rspress/shared';
 import type { RsbuildInstance, RsbuildConfig } from '@rsbuild/core';
 import sirv from 'sirv';
-import { tailwindConfig } from '../../tailwind.config';
 import {
   CLIENT_ENTRY,
   SSR_ENTRY,
@@ -24,6 +23,9 @@ import { detectReactVersion, resolveReactAlias } from './utils';
 import { initRouteService } from './route/init';
 import { PluginDriver } from './PluginDriver';
 import { RouteService } from './route/RouteService';
+
+// eslint-disable-next-line import/no-commonjs
+const tailwindConfig = require('../../tailwind.config');
 
 export interface MdxRsLoaderCallbackContext {
   resourcePath: string;

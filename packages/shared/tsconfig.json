@@ -2,14 +2,18 @@
   "extends": "@modern-js/tsconfig/base",
   "declaration": true,
   "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
     "module": "ESNext",
     "target": "ESNext",
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"]
     },
+    "rootDir": "src",
+    "outDir": "./dist",
     "isolatedModules": true
   },
-  "include": ["src", "vitest.config.ts", "modern.config.ts"],
+  "include": ["src"],
   "exclude": ["**/node_modules"]
 }

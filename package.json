@@ -7,7 +7,6 @@
     "change": "modern change",
     "bump": "modern bump",
     "pre": "modern pre",
-    "prepare": "npm run build && husky install",
     "dev": "cross-env NX_DAEMON=false NX_REJECT_UNKNOWN_LOCAL_CACHE=0 nx run-many -t dev --exclude @rspress-fixture/*",
     "build": "cross-env NX_DAEMON=false NX_REJECT_UNKNOWN_LOCAL_CACHE=0 nx run-many -t build --exclude @rspress-fixture/*",
     "test": "pnpm test:unit && pnpm test:e2e",

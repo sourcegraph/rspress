@@ -1,6 +1,8 @@
 {
   "extends": "@modern-js/tsconfig/base",
   "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
     "jsx": "preserve",
     "paths": {
       "i18n": ["./i18n.json"],

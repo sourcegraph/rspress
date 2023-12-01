@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "modern dev",
     "build": "modern build",
+    "typecheck": "tsc --build",
     "build:watch": "modern build -w",
     "reset": "rimraf ./**/node_modules",
     "lint": "modern lint",

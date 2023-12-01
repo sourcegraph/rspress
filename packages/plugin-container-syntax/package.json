@@ -17,6 +17,7 @@
   "scripts": {
     "dev": "modern build -w",
     "build": "modern build",
+    "typecheck": "tsc --build",
     "reset": "rimraf ./**/node_modules",
     "lint": "modern lint",
     "change": "modern change",
@@ -59,6 +60,7 @@
     "rehype-stringify": "^9.0.3",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
+    "typescript": "^5",
     "unified": "^10.1.2"
   }
 }
